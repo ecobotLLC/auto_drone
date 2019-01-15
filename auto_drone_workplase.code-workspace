@@ -5,5 +5,9 @@
 			"name": "auto_drone"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"signal.h": "c"
+		}
+	}
 }

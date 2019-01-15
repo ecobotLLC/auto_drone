@@ -10,10 +10,10 @@ AC_CONFIG_HEADERS([config.h])
 AC_PROG_CC
 
 # Checks for libraries.
-# FIXME: Replace `main' with a function in `-lutil':
-AC_CHECK_LIB([util], [main])
 # FIXME: Replace `main' with a function in `-ldrone':
 AC_CHECK_LIB([drone], [main])
+# FIXME: Replace `main' with a function in `-lutil':
+AC_CHECK_LIB([util], [main])
 
 # Checks for header files.
 AC_CHECK_HEADERS([fcntl.h stdlib.h sys/ioctl.h termios.h unistd.h])

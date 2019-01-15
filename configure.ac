@@ -8,6 +8,8 @@ AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([foreign])
 # Checks for programs.
 AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_INSTALL
 
 AC_PROG_INSTALL
 AM_PROG_CC_C_O
